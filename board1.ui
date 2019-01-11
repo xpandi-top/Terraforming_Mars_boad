@@ -1,0 +1,2773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TM_player_board</class>
+ <widget class="QMainWindow" name="TM_player_board">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_25">
+    <item>
+     <widget class="QTextBrowser" name="textBrowser_15">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;T&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;E&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;R&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;R&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;A&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;F&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;O&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;R&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;M&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;I&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;N&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;G&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:36pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;M&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;A&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;R&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;S&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_30">
+      <property name="minimumSize">
+       <size>
+        <width>8</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_49">
+      <item>
+       <widget class="QLabel" name="label_28">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_24">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_22">
+          <item>
+           <widget class="QPushButton" name="new_game">
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>NewGame</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_20">
+            <property name="font">
+             <font>
+              <pointsize>36</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>TR</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="TR"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_TR_plus_1">
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>+1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_TR_minus_1">
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>-1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_24">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_23">
+          <item>
+           <widget class="QLabel" name="label_21">
+            <property name="font">
+             <font>
+              <pointsize>36</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Generation</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="Generation"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_Go">
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>GO</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_25">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>18</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>18</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>48</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Money</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Curr</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="money_curr"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_7">
+                <item>
+                 <widget class="QPushButton" name="btn_money_curr_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_money_curr_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <item>
+                 <widget class="QPushButton" name="btn_money_curr_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_money_curr_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                 <widget class="QPushButton" name="btn_money_curr_plus_10">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+10</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_money_curr_minus_10">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-10</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <item>
+                 <widget class="QLabel" name="label_2">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Prod</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="money_prod"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_8">
+                <item>
+                 <widget class="QPushButton" name="btn_money_prod_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_money_prod_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_2">
+                <item>
+                 <widget class="QPushButton" name="btn_money_prod_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_money_prod_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_19">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>48</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Plant</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_10">
+                <item>
+                 <widget class="QLabel" name="label_5">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Curr</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="plant_curr">
+                  <property name="html">
+                   <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.SF NS Text'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_11">
+                <item>
+                 <widget class="QPushButton" name="btn_plant_curr_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_plant_curr_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_12">
+                <item>
+                 <widget class="QPushButton" name="btn_plant_curr_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_plant_curr_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_13">
+                <item>
+                 <widget class="QPushButton" name="btn_plant_curr_plus_8">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+8</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_plant_curr_minus_8">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-8</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_14">
+                <item>
+                 <widget class="QLabel" name="label_6">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Prod</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="plant_prod"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_15">
+                <item>
+                 <widget class="QPushButton" name="btn_plant_prod_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_plant_prod_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_16">
+                <item>
+                 <widget class="QPushButton" name="btn_plant_prod_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_plant_prod_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_26">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>18</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>18</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_17">
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>48</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Steel</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_10">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_18">
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Curr</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="steel_curr"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_19">
+                <item>
+                 <widget class="QPushButton" name="btn_steel_curr_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_steel_curr_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_20">
+                <item>
+                 <widget class="QPushButton" name="btn_steel_curr_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_steel_curr_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_21">
+                <item>
+                 <widget class="QPushButton" name="btn_steel_curr_plus_10">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+10</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_steel_curr_minus_10">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-10</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_11">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_22">
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Prod</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="steel_prod"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_23">
+                <item>
+                 <widget class="QPushButton" name="btn_steel_prod_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_steel_prod_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_24">
+                <item>
+                 <widget class="QPushButton" name="btn_steel_prod_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_steel_prod_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_22">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_25">
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>48</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Energy</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_13">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_26">
+                <item>
+                 <widget class="QLabel" name="label_11">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Curr</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="energy_curr"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_27">
+                <item>
+                 <widget class="QPushButton" name="btn_energy_curr_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_energy_curr_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_28">
+                <item>
+                 <widget class="QPushButton" name="btn_energy_curr_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_energy_curr_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_29">
+                <item>
+                 <widget class="QPushButton" name="btn_energy_curr_plus_8">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+8</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_energy_curr_minus_8">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-8</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_14">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_30">
+                <item>
+                 <widget class="QLabel" name="label_12">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Prod</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="energy_prod"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_31">
+                <item>
+                 <widget class="QPushButton" name="btn_energy_prod_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_energy_prod_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_32">
+                <item>
+                 <widget class="QPushButton" name="btn_energy_prod_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_energy_prod_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_27">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>18</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>18</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_15">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_33">
+          <item>
+           <widget class="QLabel" name="label_13">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>48</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Titianium</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_16">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_17">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_34">
+                <item>
+                 <widget class="QLabel" name="label_14">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Curr</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="titian_curr"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_35">
+                <item>
+                 <widget class="QPushButton" name="btn_titian_curr_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_titian_curr_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_36">
+                <item>
+                 <widget class="QPushButton" name="btn_titian_curr_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_titian_curr_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_37">
+                <item>
+                 <widget class="QPushButton" name="btn_titian_curr_plus_10">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+10</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_titian_curr_minus_10">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-10</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_18">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_38">
+                <item>
+                 <widget class="QLabel" name="label_15">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Prod</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="titian_prod"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_39">
+                <item>
+                 <widget class="QPushButton" name="btn_titian_prod_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_titian_prod_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_40">
+                <item>
+                 <widget class="QPushButton" name="btn_titian_prod_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_titian_prod_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_23">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_41">
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>48</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Heat</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_19">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_20">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_42">
+                <item>
+                 <widget class="QLabel" name="label_17">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Curr</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="heat_curr"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_43">
+                <item>
+                 <widget class="QPushButton" name="btn_heat_curr_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_heat_curr_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_44">
+                <item>
+                 <widget class="QPushButton" name="btn_heat_curr_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_heat_curr_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_45">
+                <item>
+                 <widget class="QPushButton" name="btn_heat_curr_plus_8">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+8</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_heat_curr_minus_8">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-8</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_21">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_46">
+                <item>
+                 <widget class="QLabel" name="label_18">
+                  <property name="font">
+                   <font>
+                    <pointsize>36</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Prod</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QTextBrowser" name="heat_prod"/>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_47">
+                <item>
+                 <widget class="QPushButton" name="btn_heat_prod_plus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_heat_prod_minus_1">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-1</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_48">
+                <item>
+                 <widget class="QPushButton" name="btn_heat_prod_plus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>+3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_heat_prod_minus_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>24</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>-3</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_29">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_31">
+      <property name="minimumSize">
+       <size>
+        <width>8</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1440</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>new_game</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>start_new_game()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>173</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_TR_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>tr_add_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>594</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>593</x>
+     <y>125</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_TR_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>tr_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>672</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>148</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Go</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>gen_go()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1358</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1346</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_curr_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_curr_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>232</x>
+     <y>296</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>322</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_curr_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_curr_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>311</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_curr_plus_10</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_curr_plus_10()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>423</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_curr_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_curr_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>232</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>236</x>
+     <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_curr_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_curr_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>311</x>
+     <y>352</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>346</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_curr_minus_10</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_curr_minus_10()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>419</x>
+     <y>351</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>439</x>
+     <y>377</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_prod_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_prod_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>578</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>623</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_prod_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_prod_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>679</x>
+     <y>302</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>705</x>
+     <y>309</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_prod_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_prod_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>595</x>
+     <y>357</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>383</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_money_prod_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>money_prod_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>670</x>
+     <y>353</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>699</x>
+     <y>360</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_curr_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_curr_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>241</x>
+     <y>518</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>278</x>
+     <y>485</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_curr_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_curr_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>329</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>352</x>
+     <y>539</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_curr_plus_10</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_curr_plus_10()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>423</x>
+     <y>513</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>443</x>
+     <y>483</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_curr_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_curr_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>227</x>
+     <y>580</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>233</x>
+     <y>596</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_curr_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_curr_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>318</x>
+     <y>571</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>352</x>
+     <y>607</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_curr_minus_10</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_curr_minus_10()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>419</x>
+     <y>585</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>612</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_prod_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_prod_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>583</x>
+     <y>516</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>628</x>
+     <y>485</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_prod_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_prod_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>668</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>702</x>
+     <y>535</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_prod_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_prod_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>603</x>
+     <y>580</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>632</x>
+     <y>600</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_steel_prod_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>steel_prod_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>673</x>
+     <y>564</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>610</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_curr_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_curr_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>242</x>
+     <y>742</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>270</x>
+     <y>707</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_curr_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_curr_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>742</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>357</x>
+     <y>764</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_curr_plus_10</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_curr_plus_10()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>398</x>
+     <y>736</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>450</x>
+     <y>712</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_curr_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_curr_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>813</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>830</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_curr_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_curr_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>320</x>
+     <y>804</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>842</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_curr_minus_10</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_curr_minus_10()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>404</x>
+     <y>798</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>474</x>
+     <y>841</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_prod_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_prod_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>582</x>
+     <y>742</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>625</x>
+     <y>725</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_prod_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_prod_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>666</x>
+     <y>748</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>701</x>
+     <y>759</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_prod_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_prod_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>596</x>
+     <y>806</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>651</x>
+     <y>835</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_titian_prod_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>titian_prod_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>676</x>
+     <y>800</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>706</x>
+     <y>809</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_curr_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_curr_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>953</x>
+     <y>300</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>907</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_curr_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_curr_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1020</x>
+     <y>284</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>990</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_curr_plus_8</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_curr_plus_8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1097</x>
+     <y>291</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1069</x>
+     <y>260</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_curr_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_curr_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>945</x>
+     <y>356</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>939</x>
+     <y>379</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_curr_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_curr_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1016</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_curr_minus_8</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_curr_minus_8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1110</x>
+     <y>362</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1098</x>
+     <y>373</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_prod_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_prod_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1288</x>
+     <y>300</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1252</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_prod_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_prod_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1364</x>
+     <y>287</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1328</x>
+     <y>268</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_prod_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_prod_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1279</x>
+     <y>355</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1270</x>
+     <y>383</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_plant_prod_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>plant_prod_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1362</x>
+     <y>350</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1354</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_curr_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_curr_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>959</x>
+     <y>526</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>913</x>
+     <y>479</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_curr_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_curr_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1012</x>
+     <y>506</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>992</x>
+     <y>483</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_curr_plus_8</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_curr_plus_8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1106</x>
+     <y>517</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1066</x>
+     <y>484</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_curr_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_curr_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>951</x>
+     <y>587</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>935</x>
+     <y>606</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_curr_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_curr_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1020</x>
+     <y>580</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>996</x>
+     <y>605</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_curr_minus_8</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_curr_minus_8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1108</x>
+     <y>584</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1071</x>
+     <y>607</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_prod_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_prod_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1296</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1242</x>
+     <y>487</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_prod_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_prod_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1368</x>
+     <y>522</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1326</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_prod_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_prod_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1285</x>
+     <y>582</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1260</x>
+     <y>606</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_energy_prod_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>energy_prod_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1361</x>
+     <y>582</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1339</x>
+     <y>606</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_curr_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_curr_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>959</x>
+     <y>749</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>900</x>
+     <y>707</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_curr_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_curr_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1036</x>
+     <y>736</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>988</x>
+     <y>715</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_curr_plus_8</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_curr_plus_8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1121</x>
+     <y>748</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1067</x>
+     <y>722</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_curr_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_curr_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>948</x>
+     <y>807</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>927</x>
+     <y>830</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_curr_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_curr_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1027</x>
+     <y>809</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1018</x>
+     <y>822</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_curr_minus_8</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_curr_minus_8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1106</x>
+     <y>816</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1087</x>
+     <y>828</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_prod_plus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_prod_plus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1311</x>
+     <y>747</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1248</x>
+     <y>714</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_prod_plus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_prod_plus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1371</x>
+     <y>744</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1326</x>
+     <y>706</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_prod_minus_1</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_prod_minus_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1281</x>
+     <y>806</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1254</x>
+     <y>827</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_heat_prod_minus_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TM_player_board</receiver>
+   <slot>heat_prod_minus_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1357</x>
+     <y>812</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1347</x>
+     <y>838</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>start_new_game()</slot>
+  <slot>tr_add_1()</slot>
+  <slot>tr_minus_1()</slot>
+  <slot>gen_go()</slot>
+  <slot>slot1()</slot>
+  <slot>money_curr_plus_1()</slot>
+  <slot>money_curr_plus_3()</slot>
+  <slot>money_curr_plus_10()</slot>
+  <slot>money_curr_minus_1()</slot>
+  <slot>money_curr_minus_3()</slot>
+  <slot>money_curr_minus_10()</slot>
+  <slot>money_prod_plus_1()</slot>
+  <slot>money_prod_plus_3()</slot>
+  <slot>money_prod_minus_1()</slot>
+  <slot>money_prod_minus_3()</slot>
+  <slot>steel_curr_plus_1()</slot>
+  <slot>steel_curr_plus_3()</slot>
+  <slot>steel_curr_plus_10()</slot>
+  <slot>steel_curr_minus_1()</slot>
+  <slot>steel_curr_minus_3()</slot>
+  <slot>steel_curr_minus_10()</slot>
+  <slot>steel_prod_plus_1()</slot>
+  <slot>steel_prod_plus_3()</slot>
+  <slot>steel_prod_minus_1()</slot>
+  <slot>steel_prod_minus_3()</slot>
+  <slot>titian_curr_plus_1()</slot>
+  <slot>titian_curr_plus_3()</slot>
+  <slot>titian_curr_plus_10()</slot>
+  <slot>titian_curr_minus_1()</slot>
+  <slot>titian_curr_minus_3()</slot>
+  <slot>titian_curr_minus_10()</slot>
+  <slot>titian_prod_minus_1()</slot>
+  <slot>titian_prod_minus_3()</slot>
+  <slot>titian_prod_plus_1()</slot>
+  <slot>titian_prod_plus_3()</slot>
+  <slot>plant_curr_plus_1()</slot>
+  <slot>plant_curr_plus_3()</slot>
+  <slot>plant_curr_plus_8()</slot>
+  <slot>plant_curr_minus_1()</slot>
+  <slot>plant_curr_minus_3()</slot>
+  <slot>plant_curr_minus_8()</slot>
+  <slot>plant_prod_minus_1()</slot>
+  <slot>plant_prod_minus_3()</slot>
+  <slot>plant_prod_plus_1()</slot>
+  <slot>plant_prod_plus_3()</slot>
+  <slot>energy_curr_plus_1()</slot>
+  <slot>energy_curr_plus_3()</slot>
+  <slot>energy_curr_plus_8()</slot>
+  <slot>energy_curr_minus_1()</slot>
+  <slot>energy_curr_minus_3()</slot>
+  <slot>energy_curr_minus_8()</slot>
+  <slot>energy_prod_minus_1()</slot>
+  <slot>energy_prod_minus_3()</slot>
+  <slot>energy_prod_plus_1()</slot>
+  <slot>energy_prod_plus_3()</slot>
+  <slot>heat_curr_plus_1()</slot>
+  <slot>heat_curr_plus_3()</slot>
+  <slot>heat_curr_plus_8()</slot>
+  <slot>heat_curr_minus_1()</slot>
+  <slot>heat_curr_minus_3()</slot>
+  <slot>heat_curr_minus_8()</slot>
+  <slot>heat_prod_plus_1()</slot>
+  <slot>heat_prod_plus_3()</slot>
+  <slot>heat_prod_minus_1()</slot>
+  <slot>heat_prod_minus_3()</slot>
+ </slots>
+</ui>
