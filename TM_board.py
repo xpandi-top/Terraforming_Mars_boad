@@ -1,5 +1,5 @@
 from PyQt5 import QtWidgets, QtGui
-from PyQt5.QtWidgets import QMainWindow
+from PyQt5.QtWidgets import QMainWindow, QMessageBox
 from board1 import Ui_TM_player_board
 import sys
 
@@ -43,48 +43,41 @@ class MainWindow(QMainWindow, Ui_TM_player_board):
         self.heat_prod.setFont(font)
 
     def start_new_game(self):
-        self.TR.setText("20")
-        self.TR.setFont(font)
-        self.TR.repaint()
-        self.Generation.setText("1")
-        self.Generation.setFont(font)
-        self.Generation.repaint()
-        self.money_curr.setText("42")
-        self.money_curr.setFont(font)
-        self.money_curr.repaint()
-        self.steel_curr.setText("0")
-        self.steel_curr.setFont(font)
-        self.steel_curr.repaint()
-        self.titian_curr.setText("0")
-        self.titian_curr.setFont(font)
-        self.titian_curr.repaint()
-        self.plant_curr.setText("0")
-        self.plant_curr.setFont(font)
-        self.plant_curr.repaint()
-        self.energy_curr.setText("0")
-        self.energy_curr.setFont(font)
-        self.energy_curr.repaint()
-        self.heat_curr.setText("0")
-        self.heat_curr.setFont(font)
-        self.heat_curr.repaint()
-        self.money_prod.setText("0")
-        self.money_prod.setFont(font)
-        self.money_prod.repaint()
-        self.steel_prod.setText("0")
-        self.steel_prod.setFont(font)
-        self.steel_prod.repaint()
-        self.titian_prod.setText("0")
-        self.titian_prod.setFont(font)
-        self.titian_prod.repaint()
-        self.plant_prod.setText("0")
-        self.plant_prod.setFont(font)
-        self.plant_prod.repaint()
-        self.energy_prod.setText("0")
-        self.energy_prod.setFont(font)
-        self.energy_prod.repaint()
-        self.heat_prod.setText("0")
-        self.heat_prod.setFont(font)
-        self.heat_prod.repaint()
+        reply = QMessageBox.question(self, 'Message', 'You sure to restart?\nChanges will be lost.',
+                                     QMessageBox.Yes | QMessageBox.No,
+                                     QMessageBox.No)
+        if reply == QMessageBox.No:
+            return
+        else:
+            self.TR.setText("20")
+            self.TR.setFont(font)
+            self.Generation.setText("1")
+            self.Generation.setFont(font)
+            self.money_curr.setText("42")
+            self.money_curr.setFont(font)
+            self.steel_curr.setText("0")
+            self.steel_curr.setFont(font)
+            self.titian_curr.setText("0")
+            self.titian_curr.setFont(font)
+            self.plant_curr.setText("0")
+            self.plant_curr.setFont(font)
+            self.energy_curr.setText("0")
+            self.energy_curr.setFont(font)
+            self.heat_curr.setText("0")
+            self.heat_curr.setFont(font)
+            self.money_prod.setText("0")
+            self.money_prod.setFont(font)
+            self.steel_prod.setText("0")
+            self.steel_prod.setFont(font)
+            self.titian_prod.setText("0")
+            self.titian_prod.setFont(font)
+            self.plant_prod.setText("0")
+            self.plant_prod.setFont(font)
+            self.energy_prod.setText("0")
+            self.energy_prod.setFont(font)
+            self.heat_prod.setText("0")
+            self.heat_prod.setFont(font)
+            self.repaint()
 
     def gen_go(self):
         self.Generation.setText(str(int(self.Generation.toPlainText()) + 1))
@@ -346,17 +339,6 @@ class MainWindow(QMainWindow, Ui_TM_player_board):
     #         event.accept()
     #     else:
     #         event.ignore()
-
-    # def keyPressEvent(self, e):
-    #     if e.key() == QtCore.Qt.Key_D or e.key() == QtCore.Qt.Key_Right:
-    #         self.next_word()
-    #     elif e.key() == QtCore.Qt.Key_S or e.key() == QtCore.Qt.Key_Down:
-    #         self.show_meaning()
-    #     elif e.key() == QtCore.Qt.Key_W or e.key() == QtCore.Qt.Key_Up:
-    #         self.set_known_word()
-    #     elif e.key() == QtCore.Qt.Key_A or e.key() == QtCore.Qt.Key_Left:
-    #         self.prev_word()
-
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
