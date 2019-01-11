@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets, QtGui
 from PyQt5.QtWidgets import QMainWindow
-from Terraforming_Mars_boad.board1 import Ui_TM_player_board
+from board1 import Ui_TM_player_board
 import sys
 
 font = QtGui.QFont()
