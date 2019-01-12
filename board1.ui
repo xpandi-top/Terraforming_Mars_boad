@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1440</width>
-    <height>900</height>
+    <width>1394</width>
+    <height>937</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1664,18 +1664,48 @@ p, li { white-space: pre-wrap; }
     </item>
    </layout>
   </widget>
-  <widget class="QMenuBar" name="menubar">
+  <widget class="savefile" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1440</width>
+     <width>1394</width>
      <height>22</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuSave">
+    <property name="title">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuLoad">
+    <property name="title">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+   </widget>
+   <addaction name="menuSave"/>
+   <addaction name="menuLoad"/>
+   <addaction name="menuSettings"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionsetting">
+   <property name="text">
+    <string>setting</string>
+   </property>
+  </action>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>savefile</class>
+   <extends>QMenuBar</extends>
+   <header location="global">savefile.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections>
   <connection>
@@ -1861,8 +1891,8 @@ p, li { white-space: pre-wrap; }
    <slot>money_prod_plus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>679</x>
-     <y>302</y>
+     <x>673</x>
+     <y>319</y>
     </hint>
     <hint type="destinationlabel">
      <x>705</x>
@@ -1877,8 +1907,8 @@ p, li { white-space: pre-wrap; }
    <slot>money_prod_minus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>595</x>
-     <y>357</y>
+     <x>592</x>
+     <y>377</y>
     </hint>
     <hint type="destinationlabel">
      <x>619</x>
@@ -2037,8 +2067,8 @@ p, li { white-space: pre-wrap; }
    <slot>steel_prod_minus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>603</x>
-     <y>580</y>
+     <x>592</x>
+     <y>615</y>
     </hint>
     <hint type="destinationlabel">
      <x>632</x>
@@ -2054,7 +2084,7 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>673</x>
-     <y>564</y>
+     <y>615</y>
     </hint>
     <hint type="destinationlabel">
      <x>700</x>
@@ -2069,8 +2099,8 @@ p, li { white-space: pre-wrap; }
    <slot>titian_curr_plus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>242</x>
-     <y>742</y>
+     <x>255</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>270</x>
@@ -2085,8 +2115,8 @@ p, li { white-space: pre-wrap; }
    <slot>titian_curr_plus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>323</x>
-     <y>742</y>
+     <x>336</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>357</x>
@@ -2101,8 +2131,8 @@ p, li { white-space: pre-wrap; }
    <slot>titian_curr_plus_10()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>398</x>
-     <y>736</y>
+     <x>427</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>450</x>
@@ -2133,8 +2163,8 @@ p, li { white-space: pre-wrap; }
    <slot>titian_curr_minus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>320</x>
-     <y>804</y>
+     <x>336</x>
+     <y>853</y>
     </hint>
     <hint type="destinationlabel">
      <x>337</x>
@@ -2149,8 +2179,8 @@ p, li { white-space: pre-wrap; }
    <slot>titian_curr_minus_10()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>404</x>
-     <y>798</y>
+     <x>427</x>
+     <y>853</y>
     </hint>
     <hint type="destinationlabel">
      <x>474</x>
@@ -2165,8 +2195,8 @@ p, li { white-space: pre-wrap; }
    <slot>titian_prod_plus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>582</x>
-     <y>742</y>
+     <x>592</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>625</x>
@@ -2181,8 +2211,8 @@ p, li { white-space: pre-wrap; }
    <slot>titian_prod_plus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>666</x>
-     <y>748</y>
+     <x>673</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>701</x>
@@ -2197,8 +2227,8 @@ p, li { white-space: pre-wrap; }
    <slot>titian_prod_minus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>596</x>
-     <y>806</y>
+     <x>592</x>
+     <y>853</y>
     </hint>
     <hint type="destinationlabel">
      <x>651</x>
@@ -2213,8 +2243,8 @@ p, li { white-space: pre-wrap; }
    <slot>titian_prod_minus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>676</x>
-     <y>800</y>
+     <x>673</x>
+     <y>853</y>
     </hint>
     <hint type="destinationlabel">
      <x>706</x>
@@ -2229,8 +2259,8 @@ p, li { white-space: pre-wrap; }
    <slot>plant_curr_plus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>953</x>
-     <y>300</y>
+     <x>950</x>
+     <y>319</y>
     </hint>
     <hint type="destinationlabel">
      <x>907</x>
@@ -2325,8 +2355,8 @@ p, li { white-space: pre-wrap; }
    <slot>plant_prod_plus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1288</x>
-     <y>300</y>
+     <x>1277</x>
+     <y>319</y>
     </hint>
     <hint type="destinationlabel">
      <x>1252</x>
@@ -2341,8 +2371,8 @@ p, li { white-space: pre-wrap; }
    <slot>plant_prod_plus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1364</x>
-     <y>287</y>
+     <x>1358</x>
+     <y>319</y>
     </hint>
     <hint type="destinationlabel">
      <x>1328</x>
@@ -2357,8 +2387,8 @@ p, li { white-space: pre-wrap; }
    <slot>plant_prod_minus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1279</x>
-     <y>355</y>
+     <x>1277</x>
+     <y>377</y>
     </hint>
     <hint type="destinationlabel">
      <x>1270</x>
@@ -2373,8 +2403,8 @@ p, li { white-space: pre-wrap; }
    <slot>plant_prod_minus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1362</x>
-     <y>350</y>
+     <x>1358</x>
+     <y>377</y>
     </hint>
     <hint type="destinationlabel">
      <x>1354</x>
@@ -2389,8 +2419,8 @@ p, li { white-space: pre-wrap; }
    <slot>energy_curr_plus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>959</x>
-     <y>526</y>
+     <x>950</x>
+     <y>557</y>
     </hint>
     <hint type="destinationlabel">
      <x>913</x>
@@ -2405,8 +2435,8 @@ p, li { white-space: pre-wrap; }
    <slot>energy_curr_plus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1012</x>
-     <y>506</y>
+     <x>1031</x>
+     <y>557</y>
     </hint>
     <hint type="destinationlabel">
      <x>992</x>
@@ -2437,8 +2467,8 @@ p, li { white-space: pre-wrap; }
    <slot>energy_curr_minus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>951</x>
-     <y>587</y>
+     <x>950</x>
+     <y>615</y>
     </hint>
     <hint type="destinationlabel">
      <x>935</x>
@@ -2485,8 +2515,8 @@ p, li { white-space: pre-wrap; }
    <slot>energy_prod_plus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1296</x>
-     <y>515</y>
+     <x>1277</x>
+     <y>557</y>
     </hint>
     <hint type="destinationlabel">
      <x>1242</x>
@@ -2501,8 +2531,8 @@ p, li { white-space: pre-wrap; }
    <slot>energy_prod_plus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1368</x>
-     <y>522</y>
+     <x>1358</x>
+     <y>557</y>
     </hint>
     <hint type="destinationlabel">
      <x>1326</x>
@@ -2517,8 +2547,8 @@ p, li { white-space: pre-wrap; }
    <slot>energy_prod_minus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1285</x>
-     <y>582</y>
+     <x>1277</x>
+     <y>615</y>
     </hint>
     <hint type="destinationlabel">
      <x>1260</x>
@@ -2533,8 +2563,8 @@ p, li { white-space: pre-wrap; }
    <slot>energy_prod_minus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1361</x>
-     <y>582</y>
+     <x>1358</x>
+     <y>615</y>
     </hint>
     <hint type="destinationlabel">
      <x>1339</x>
@@ -2549,8 +2579,8 @@ p, li { white-space: pre-wrap; }
    <slot>heat_curr_plus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>959</x>
-     <y>749</y>
+     <x>950</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>900</x>
@@ -2565,8 +2595,8 @@ p, li { white-space: pre-wrap; }
    <slot>heat_curr_plus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1036</x>
-     <y>736</y>
+     <x>1031</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>988</x>
@@ -2581,8 +2611,8 @@ p, li { white-space: pre-wrap; }
    <slot>heat_curr_plus_8()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1121</x>
-     <y>748</y>
+     <x>1112</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>1067</x>
@@ -2597,8 +2627,8 @@ p, li { white-space: pre-wrap; }
    <slot>heat_curr_minus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>948</x>
-     <y>807</y>
+     <x>950</x>
+     <y>853</y>
     </hint>
     <hint type="destinationlabel">
      <x>927</x>
@@ -2645,8 +2675,8 @@ p, li { white-space: pre-wrap; }
    <slot>heat_prod_plus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1311</x>
-     <y>747</y>
+     <x>1277</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>1248</x>
@@ -2661,8 +2691,8 @@ p, li { white-space: pre-wrap; }
    <slot>heat_prod_plus_3()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1371</x>
-     <y>744</y>
+     <x>1358</x>
+     <y>795</y>
     </hint>
     <hint type="destinationlabel">
      <x>1326</x>
@@ -2677,8 +2707,8 @@ p, li { white-space: pre-wrap; }
    <slot>heat_prod_minus_1()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1281</x>
-     <y>806</y>
+     <x>1277</x>
+     <y>853</y>
     </hint>
     <hint type="destinationlabel">
      <x>1254</x>
